@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-студия - Создаем сайты, которые работают на ваш бизнес</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Rajdhani:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="/images/av.jpg" alt="Логотип веб-студии">
+                    </a>
+                </div>
+                
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#services">Цены</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="https://www.instagram.com/devsitefy/">Блог</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-contacts">
+                    <div class="contact-info">
+                        <a href="tel:+79996475770">+7 (999) 647-57-70</a>
+                        <a href="mailto:al6k5and00r@gmail.com">al6k5and00r@gmail.com</a>
+                    </div>
+                    <button onclick="window.open('https://t.me/devSitefy', '_blank')" class="btn btn-primary pulse-effect">Заказать сайт</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной блок (Hero Section) -->
+    <section class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/placeholder.svg?height=800&width=1600&text=Slide1');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-text="Создаем сайты, которые работают на ваш бизнес!">Создаем сайты, которые работают на ваш бизнес!</h1>
+                        <p>Индивидуальный подход, качественная разработка, поддержка 24/7.</p>
+                        <button onclick="window.open('https://t.me/devSitefy', '_blank')" style="color: white;" class="btn btn-large pulse-effect">Получите сайт под ключ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/placeholder.svg?height=800&width=1600&text=Slide2');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-text="Современные технологии для вашего бизнеса">Современные технологии для вашего бизнеса</h1>
+                        <p>Используем передовые решения для создания эффективных сайтов</p>
+                        <button onclick="window.open('https://t.me/devSitefy', '_blank')" style="color: white;" class="btn btn-large pulse-effect">Узнать подробнее</button>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/placeholder.svg?height=800&width=1600&text=Slide3');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 data-text="Увеличиваем продажи через интернет">Увеличиваем продажи через интернет</h1>
+                        <p>Создаем сайты, которые приносят реальную прибыль</p>
+                        <button onclick="window.open('https://t.me/devSitefy', '_blank')" style="color: white;" class="btn btn-large pulse-effect">Заказать сайт</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+    </section>
+
+
+    <!-- Преимущества (Features) -->
+    <section class="features scan-effect" id="features">
+        <div class="container">
+            <h2 data-text="Наши преимущества" class="section-title">Наши преимущества</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Быстрое создание</h3>
+                    
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Адаптивный дизайн</h3>
+                    
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO-оптимизация</h3>
+                    
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Удобный интерфейс</h3>
+                   
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>Поддержка и обучение</h3>
+                    
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3>Доступные цены</h3>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Тарифы или Услуги (Services) -->
+    <section class="services scan-effect" id="services">
+        <div class="container">
+            <h2 class="section-title glitch-effect" data-text="Наши услуги">Наши услуги</h2>
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <div class="service-header">
+                        <h3>Старт</h3>
+                <div class="price terminal-text featured">от 1 000 ₽</div>
+            </div>
+            <div class="service-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Шаблонный дизайн</li>
+                            <li><i class="fas fa-check"></i> До 5 страниц</li>
+                            <li><i class="fas fa-check"></i> Адаптивная верстка</li>
+                            <li><i class="fas fa-check"></i> Базовая SEO-оптимизация</li>
+                            <li><i class="fas fa-check"></i> Срок: 7 дней</li>
+                        </ul>
+                        <button onclick="window.open('https://t.me/devSitefy', '_blank')" class="btn btn-primary">Получить консультацию</button>
+                    </div>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-header">
+                        <h3>Бизнес</h3>
+                        <div class="price terminal-text">от 3 000 ₽</div>
+                    </div>
+                    <div class="service-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Индивидуальный дизайн</li>
+                            <li><i class="fas fa-check"></i> До 10 страниц</li>
+                            <li><i class="fas fa-check"></i> Адаптивная верстка</li>
+                            <li><i class="fas fa-check"></i> Расширенная SEO-оптимизация</li>
+                            <li><i class="fas fa-check"></i> Интеграция CMS</li>
+                            <li><i class="fas fa-check"></i> Срок: 14 дней</li>
+                        </ul>
+                        <button onclick="window.open('https://t.me/devSitefy', '_blank')" class="btn btn-primary">Получить консультацию</button>
+                    </div>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-header">
+                        <h3>Премиум</h3>
+                        <div class="price terminal-text">от 5 000 ₽</div>
+                    </div>
+                    <div class="service-body">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Эксклюзивный дизайн</li>
+                            <li><i class="fas fa-check"></i> Неограниченное количество страниц</li>
+                            <li><i class="fas fa-check"></i> Адаптивная верстка</li>
+                            <li><i class="fas fa-check"></i> Полная SEO-оптимизация</li>
+                            <li><i class="fas fa-check"></i> Интеграция CMS и API</li>
+                            <li><i class="fas fa-check"></i> Техническая поддержка 3 месяца</li>
+                            <li><i class="fas fa-check"></i> Срок: 30 дней</li>
+                        </ul>
+                        <button onclick="window.open('https://t.me/devSitefy', '_blank')" class=" btn btn-primary">Получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section class="portfolio-preview scan-effect" id="portfolio">
+        <div class="container">
+            <h2 class="section-title glitch-effect" data-text="Наши работы">Наши работы</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <button class="filter-btn" data-filter="landing">Лендинги</button>
+                <button class="filter-btn" data-filter="corporate">Многостраничные сайты</button>
+                <button class="filter-btn" data-filter="shop">Учебные сайты</button>
+            </div>
+            <div class="portfolio-grid">
+                <div style="height: 510px; padding: 5px;" class="portfolio-item" data-category="landing">
+                    <div style="height: 500px; width: auto;" class="portfolio-image cyber-image">
+                        <img style="height: 500px;" src="/images/sweet.png" alt="Лендинг для компании">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Лендинг для домашней кондитерской</h3>
+                                <p>Одностраничный сайт с высокой конверсией</p>
+                                <a href="#" class="btn btn-small">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="landing">
+                        <div class="portfolio-image cyber-image">
+                            <img src="/images/flow.png" alt="Лендинг для компании">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h3>Лендинг для цветочного магазина</h3>
+                                    <p>Одностраничный сайт с высокой конверсией</p>
+                                    <a href="#" class="btn btn-small">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="portfolio-item" data-category="corporate">
+                    <div class="portfolio-image cyber-image">
+                        <img src="/images/trav.png" alt="Многостраничный сайт">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Многостраничный сайт для туристической компании</h3>
+                                <p>Многостраничный сайт</p>
+                                <a href="#" class="btn btn-small">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="corporate">
+                    <div class="portfolio-image cyber-image">
+                        <img src="/images/teach.png" alt="Многостраничный сайт">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Многостраничный сайт для школьного учителя</h3>
+                                <p>Многостраничный сайт</p>
+                                <a href="#" class="btn btn-small">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="shop">
+                    <div class="portfolio-image cyber-image">
+                        <img src="/images/uch.png" alt="Интернет-магазин">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Учебный сайт для университета</h3>
+                                <p>Полнофункциональный учебный сайт</p>
+                                <a href="#" class="btn btn-small">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 data-text="Отзывы наших клиентов" class="section-title">Отзывы наших клиентов</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial-item active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image cyber-image">
+                            <img src="/images/woomen.png" alt="Клиент">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"Очень доволен сотрудничеством с веб-студией. Сайт был готов даже раньше срока, а качество превзошло все ожидания. Отдельное спасибo за терпение и внимание к деталям!"</p>
+                            <div class="testimonial-author">
+                                <h4>Александра Горяйнова</h4>
+                                <p>
+                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image cyber-image">
+                            <img src="/images/woomen.png" alt="Клиент">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"Заказывали сайт кондитерской. Результатом очень довольны. Сайт работает быстро, выглядит современно"</p>
+                            <div class="testimonial-author">
+                                <h4>Ольга Коноплева</h4>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <div class="testimonial-image cyber-image">
+                            <img src="/images/men.png" alt="Клиент">
+                        </div>
+                        <div class="testimonial-text">
+                            <p>"Впечатляет внимание к мелочам!"</p>
+                            <div class="testimonial-author">
+                                <h4>Анонимно</h4>
+                                <p>
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Призыв к действию -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Готовы обсудить ваш проект?</h2>
+                <p>Получите бесплатную консультацию и расчет стоимости вашего сайта</p>
+                <button onclick="window.open('https://t.me/devSitefy', '_blank')" style="color: white;" class="btn btn-large">Получить расчет</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал (Footer) -->
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <img src="/images/av1.jpg" alt="Логотип веб-студии">
+                    </div>
+                   
+                </div>
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    
+                    <p><i class="fas fa-phone"></i> <a href="tel:+79996475770">+7 (999) 647-57-70</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:al6k5and00r@gmail.com">al6k5and00r@gmail.com</a></p>
+                </div>
+                <div class="footer-links">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#services">Цены</a></li>
+                        <li><a href="#testimonials">Отзывы</a></li>
+                        <li><a href="#blog">Блог</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/devsitefy/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://vk.com/id1031972052"><i class="fab fa-vk"></i></a>
+                        <a href="https://t.me/devSitefy"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Веб-студия. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+        // Слайдер в hero секции
+        const heroSlides = document.querySelectorAll('.hero-slider .slide');
+        const heroDots = document.querySelectorAll('.hero .slider-controls .dot');
+        
+        if (heroDots.length > 0) {
+            heroDots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    const slideIndex = this.getAttribute('data-slide');
+                    
+                    // Убираем активный класс со всех слайдов и точек
+                    heroSlides.forEach(slide => slide.classList.remove('active'));
+                    heroDots.forEach(dot => dot.classList.remove('active'));
+                    
+                    // Добавляем активный класс текущему слайду и точке
+                    heroSlides[slideIndex].classList.add('active');
+                    this.classList.add('active');
+                });
+            });
+            
+            // Автоматическое переключение слайдов
+            let currentSlide = 0;
+            setInterval(() => {
+                currentSlide = (currentSlide + 1) % heroSlides.length;
+                
+                // Убираем активный класс со всех слайдов и точек
+                heroSlides.forEach(slide => slide.classList.remove('active'));
+                heroDots.forEach(dot => dot.classList.remove('active'));
+                
+                // Добавляем активный класс текущему слайду и точке
+                heroSlides[currentSlide].classList.add('active');
+                heroDots[currentSlide].classList.add('active');
+            }, 5000);
+        }
+            // Отзывы
+            const testimonialItems = document.querySelectorAll('.testimonial-item');
+            const testimonialDots = document.querySelectorAll('.testimonials .dot');
+            
+            testimonialDots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    const testimonialIndex = this.getAttribute('data-testimonial');
+                    
+                    // Убираем активный класс со всех отзывов и точек
+                    testimonialItems.forEach(item => item.classList.remove('active'));
+                    testimonialDots.forEach(dot => dot.classList.remove('active'));
+                    
+                    // Добавляем активный класс текущему отзыву и точке
+                    testimonialItems[testimonialIndex].classList.add('active');
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
